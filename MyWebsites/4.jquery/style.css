@@ -1,0 +1,30 @@
+#center{
+  width:500px;
+  height: 500px;
+  margin: auto;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+label{
+  width:150px;
+  text-align: left;
+  float: left;
+  margin-top: 10px;
+}
+input{
+  width: 300px;
+  height: 40px;
+  text-align: left;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+#submitbutton{
+  width: 100px;
+  height: 40px;
+  margin-left: 150px;
+  border-radius: 5px;
+  text-align: center;
+  }
+#error{
+  color:  red;
+}
