@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="text/javascript" src="../jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+    <style type="text/css">
+#greenbox{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+#targetbox{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+    </style>
+</head>
+
+<body>
+<div id="greenbox"> drag me around
+</div>
+
+<div id="targetbox"> drag me into this
+</div>
+<script>
+
+
+$("#greenbox").draggable();
+$("#targetbox").droppable({
+  drop:function(ui,event){
+    $("#targetbox").css("background-color", "yellow");
+  }
+});
+
+
+
+</script>
+
+</body>
+</html>

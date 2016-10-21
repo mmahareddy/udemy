@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>CodePlayer</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+
+</head>
+
+<body>
+<div id="title">
+  <div id="cp">
+    CodePlayer
+  </div>
+  <div id="run">
+    <button id="rbutton"> Run </button>
+  </div>
+  <div >
+    <ul id="togglebutton">
+      <li class="toggleele selected" >HTML</li>
+      <li class="toggleele ">CSS</li>
+      <li class="toggleele " >JS</li>
+      <li class="toggleele selected">Result</li>
+    </ul>
+  </div>
+</div>
+<!-- <div class="resultContainer"> -->
+
+<div class="HTMLcontainer appear">
+  <div>HTML</div>
+<textarea placeholder="enter code" class="codearea" id="html"></textarea>
+</div>
+<div class="CSScontainer appear">
+  <div>CSS</div>
+<textarea placeholder="enter code" class="codearea" id="css"></textarea>
+</div>
+<div class="JScontainer appear">
+  <div>JS</div>
+<textarea placeholder="enter code" class="codearea" id="js"></textarea>
+</div>
+<div class="Resultcontainer appear">
+  <div>Result</div>
+<iframe id="resultFrame"></iframe>
+</div>
+<!-- </div> -->
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
