@@ -1,0 +1,24 @@
+#aboutStyle,
+#summaryStyle,
+#experienceStyle,
+#achieveStyle{
+font-size: 1.5em;
+text-align: justify;
+}
+
+#aboutStyle
+{
+  height: 500px;
+}
+
+#bodyContext{
+  position: relative;
+  top: 50px;
+}
+
+#about,
+#summary,
+#experience,
+#achievements{
+  padding-top: 50px;
+}

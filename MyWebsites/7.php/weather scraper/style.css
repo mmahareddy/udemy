@@ -1,0 +1,23 @@
+.container-fluid{
+background-image: url('images/weather_bckground.jpg');
+height: 100%; width: 100% ;
+background-size:cover;
+background-position: center;
+padding-top: 120px;
+}
+
+html,body{
+  height: 100% ;
+  width: 100% ;
+}
+
+.row{
+  padding: 30px;
+}
+
+#weatherTitle{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-size: 3em;
+color: #212121;
+}
