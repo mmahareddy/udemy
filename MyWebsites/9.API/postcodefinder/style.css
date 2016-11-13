@@ -1,0 +1,28 @@
+.container-fluid{
+background-image: url('images/city-background.jpg');
+background-color: rgba(255, 0, 0, 0.2);
+height: 100%; width: 100% ;
+background-size:cover;
+background-position: center;
+padding-top: 120px;
+}
+
+html,body{
+  height: 100% ;
+  width: 100% ;
+}
+
+.row{
+  padding: 30px;
+}
+
+#weatherTitle{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-size: 5em;
+color: #212121;
+}
+
+.bg-white{
+  background-color: #ffffff !important;
+}
